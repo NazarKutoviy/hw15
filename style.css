@@ -1,0 +1,46 @@
+.holder {
+  display: flex;
+  border: 4px solid black;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 600px;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
+
+.one {
+  display: flex;
+  background-color: red;
+  order: -2;
+  width: 300px;
+}
+
+.two {
+  display: flex;
+
+  background-color: blue;
+  order: 1;
+}
+.three {
+  display: flex;
+
+  background-color: purple;
+  order: 0;
+}
+.four {
+  display: flex;
+
+  background-color: green;
+  order: 2;
+}
+.five {
+  display: flex;
+  width: 300px;
+  background-color: yellow;
+  order: -1;
+}
